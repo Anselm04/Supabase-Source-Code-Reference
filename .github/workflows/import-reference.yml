@@ -30,7 +30,8 @@ jobs:
           allowed={}; excluded={}
           for p,(mode,kind,sha) in upstream.items():
               parts=p.lower().split('/')
-              if kind!='blob': reason='external submodule'
+              if p in ('apps/docs/content/guides/functions/examples/slack-bot-mention.mdx','examples/edge-functions/supabase/functions/slack-bot-mention/slack-bot-mention.md'): reason='GitHub secret scanning flagged credential-like content'
+              elif kind!='blob': reason='external submodule'
               elif p.startswith('.github/workflows/'): reason='upstream automation'
               elif any(x in ('enterprise','ee','commercial','proprietary') for x in parts): reason='potential restricted code'
               elif any(x in ('logo','logos','brand','branding','fonts') for x in parts) or p.lower().endswith(('.png','.jpg','.jpeg','.gif','.webp','.svg','.ico','.mp4','.woff','.woff2','.ttf','.otf','.pdf')): reason='external asset rights not assessed'
