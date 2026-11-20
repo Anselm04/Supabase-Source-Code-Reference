@@ -67,8 +67,8 @@ catalogs:
       specifier: ^0.4.0
       version: 0.4.0
     lucide-react:
-      specifier: ^1.55.0
-      version: 1.55.0
+      specifier: ^1.73.0
+      version: 1.73.0
     motion:
       specifier: ^11.18.2
       version: 11.18.2
@@ -238,7 +238,7 @@ importers:
         version: 2.8.1(@types/react@19.2.14)(react@19.2.6)
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       markdown-wasm:
         specifier: ^1.2.0
         version: 1.2.0
@@ -476,7 +476,7 @@ importers:
         version: 4.18.1
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       mdast:
         specifier: ^3.0.0
         version: 3.0.0
@@ -801,7 +801,7 @@ importers:
         version: 2.0.3
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       react:
         specifier: 'catalog:'
         version: 19.2.6
@@ -892,7 +892,7 @@ importers:
         version: 2.8.1(@types/react@19.2.14)(react@19.2.6)
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       motion:
         specifier: 'catalog:'
         version: 11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
@@ -1293,7 +1293,7 @@ importers:
         version: 4.18.1
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       markdown-table:
         specifier: ^3.0.3
         version: 3.0.3
@@ -1639,7 +1639,7 @@ importers:
         version: 2.8.1(@types/react@19.2.14)(react@19.2.6)
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       monaco-editor:
         specifier: 0.52.2
         version: 0.52.2
@@ -1952,7 +1952,7 @@ importers:
         version: 3.15.2
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       markdown-toc:
         specifier: ^1.2.0
         version: 1.2.0
@@ -2450,7 +2450,7 @@ importers:
         version: 5.0.5(vitest@5.0.0)
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       tsconfig:
         specifier: workspace:*
         version: link:../tsconfig
@@ -2499,7 +2499,7 @@ importers:
         version: link:../common
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       ui:
         specifier: workspace:*
         version: link:../ui
@@ -2569,7 +2569,7 @@ importers:
         version: 3.3.3
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       mdast-util-to-string:
         specifier: ^3.1.1
         version: 3.2.0
@@ -2833,7 +2833,7 @@ importers:
         version: 4.18.1
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       motion:
         specifier: 'catalog:'
         version: 11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
@@ -2987,7 +2987,7 @@ importers:
         version: 4.18.1
       lucide-react:
         specifier: 'catalog:'
-        version: 1.55.0(@types/react@19.2.14)(react@19.2.6)
+        version: 1.73.0(@types/react@19.2.14)(react@19.2.6)
       mdast:
         specifier: ^3.0.0
         version: 3.0.0
@@ -14764,8 +14764,8 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  lucide-react@1.55.0:
-    resolution: {integrity: sha512-bSozQHiI3/8q7JvgoqVRGOYUi7fYT3siAZwmZsljjsOH2Husp/2ODdFf/leD+ZC/2yKfn7r8oh6yeoR3ITR5vA==}
+  lucide-react@1.73.0:
+    resolution: {integrity: sha512-fVOzGviL9mTfHenG1PbCfIceavyGlnpYNSYr+aGZHLRymAJ7DTP6KHuqt0uBkCKAoenr1UVkwSbDIYt2xIesEQ==}
     peerDependencies:
       '@types/react': '*'
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -32582,7 +32582,7 @@ snapshots:
     dependencies:
       react: 19.2.6
 
-  lucide-react@1.55.0(@types/react@19.2.14)(react@19.2.6):
+  lucide-react@1.73.0(@types/react@19.2.14)(react@19.2.6):
     dependencies:
       react: 19.2.6
     optionalDependencies:
